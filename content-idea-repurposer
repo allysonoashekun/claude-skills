@@ -1,0 +1,182 @@
+---
+name: content-idea-repurposer
+description: "Repurposes an existing short-form video script (TikTok, Reels, Shorts) into three distinct formats: an 8-second b-roll text overlay, a 30-60 second b-roll voiceover video, and a 30-60 second face-to-camera video. Use this skill whenever the user provides a short-form video script and asks to repurpose, adapt, remix, expand, or reformat it. Also trigger when they say things like 'turn this into different videos,' 'repurpose this script,' 'what else can I make from this,' 'make variations of this,' 'give me different formats for this,' or paste a script and ask for new formats — even if they don't name the formats explicitly."
+---
+ 
+# Content Idea Repurposer
+ 
+Takes an existing short-form video script and produces three new content formats, shaped by the creator's own voice.
+ 
+---
+ 
+## Before You Begin
+ 
+This skill works with or without reference material — but it produces much stronger output with it.
+ 
+**Check for optional reference files first.** If the user has previously shared or uploaded any of the following (as project files, uploaded docs, or earlier in the conversation), read them before proceeding and use them to shape voice, hooks, and structure throughout:
+- A **voice/style guide** — tone, vocabulary, sentence patterns, things to avoid, content pillars
+- A **hook or script framework** — named hook types, opener patterns, structural templates the creator already uses
+- An **audience persona** — who the viewer is, what they need, what makes them follow vs. scroll past
+**If none of these exist**, don't stall the task waiting for them. Instead, do a **quick voice pass on the source script itself**: read the input script closely and extract the creator's actual voice from it directly — sentence rhythm, vocabulary, how blunt or soft they are, what kind of hook they used, whether they lead with story or with tips. Treat the source script as the only voice reference you need. Briefly state the voice traits you picked up on before writing (1-2 lines), so the user can correct you if you've misread it.
+ 
+Never invent a generic "content creator voice." The output should sound like whoever wrote the source script — not like a template.
+ 
+---
+ 
+## Step 1: Parse the Input Script
+ 
+Read the source script and extract:
+ 
+- **Core topic** — what is this actually about in one phrase?
+- **Core insight or payoff** — what does the viewer walk away with?
+- **Distinct information points** — count them. Is there 1 strong statement, or are there 3+ separable items (tips, tools, steps, rules, examples)?
+- **Content mode** — Story-led (personal, vulnerable, situational) or Tip-led (tactical, educational, instructional)?
+- **Content pillar/theme** — if the creator has stated content pillars (from a voice guide, or mentioned in conversation), name which one this falls under. Otherwise, name the implicit theme.
+- **Tone register** — heavy/vulnerable, casual/personality-driven, or structured/educational?
+These decisions shape every format that follows.
+ 
+---
+ 
+## Step 2: Produce All Three Formats
+ 
+Always output all three. Use the section headers below exactly as written.
+ 
+---
+ 
+## TYPE 1 — B-Roll Text Overlay
+ 
+**What it is:** 8-second clip(s). Text on screen carries all the information. No voiceover. Viewer reads while watching b-roll footage.
+ 
+### Format Decision
+ 
+Choose based on what you extracted in Step 1:
+ 
+**Single-clip** — use when the source script contains ONE strong reframe, stat, statement, or piece of advice. Everything fits on one overlay on one clip.
+ 
+**Multi-clip** — use when the source script contains 3 distinct, separable items (tips, tools, rules, steps, etc.). Each item gets its own clip. Always exactly 3 items — not 2, not 4.
+ 
+Do not force a list where none exists. Do not collapse a list just to keep it simple. The source script decides.
+ 
+### Single-Clip Output Format
+ 
+```
+TITLE: [Short, scroll-stopping title optimized for platform search — specific and searchable]
+ 
+CLIP 1: [The single piece of information as it appears on screen — fragments and punchy phrasing, no full sentences, no filler, readable in 2–3 seconds]
+```
+ 
+### Multi-Clip Output Format
+ 
+```
+TITLE: [Short, searchable title — usually "[Number] [things] that [outcome]" or "[Number] [items] for [context]"]
+ 
+CLIP 1: [Opening frame — the setup. E.g., "3 tools I use every week"]
+CLIP 2: [Item 1 — name + one-line descriptor]
+CLIP 3: [Item 2 — name + one-line descriptor]
+CLIP 4: [Item 3 — name + one-line descriptor]
+```
+ 
+### Type 1 Quality Checks
+- Text should be readable in 2–3 seconds per clip — no dense copy
+- Fragments only — no full sentences, no "I" or personal voice
+- Title must be searchable and specific (e.g. "budgeting apps for beginners 2026" not "apps I love")
+- No em dashes, no bullet points — clean short phrases only
+---
+ 
+## TYPE 2 — B-Roll Voiceover / Vlog
+ 
+**What it is:** 30–60 seconds. The creator narrates over footage of themselves doing something — working, walking, filming, in the middle of a task. The viewer gets their POV and personality. This is NOT informational — it is experiential. Where Type 3 teaches, Type 2 *shows*.
+ 
+### Voice Shift
+ 
+Type 2 is the creator thinking out loud, not delivering content. They are not presenting to the camera. They are narrating over footage of their own life or work. The viewer is watching them process something in real time — a realization, a problem they're solving, something they noticed. One perspective, not a framework.
+ 
+### Hook for Type 2
+ 
+Drop into the middle of a scene — name what is happening right now, emotionally or situationally. If the creator has a named hook framework (from a reference file), use whichever hook type in it is built for "concrete inciting incident" or "problem → solution, collaborative" moments. Otherwise, just open mid-action: what is the creator doing right now, this second?
+ 
+Never open with a category announcement. Never open with a list. Start with the moment.
+ 
+### Script Structure
+ 
+1. **Hook** — First sentence: drop into the middle of something happening. What is the creator doing right now?
+2. **The scene** — What are they actually doing or experiencing? Ground the viewer physically or emotionally. One to two sentences.
+3. **Their POV** — What are they thinking, noticing, or feeling about it? One specific observation — not a lesson, a perspective.
+4. **The turn** — A small shift, a decision they're making, a realization landing.
+5. **Close** — Casual, conversational. No formal CTA. Trails off naturally or ends mid-thought.
+### Type 2 Output Format
+ 
+```
+TITLE: [Platform title — personality-driven, not keyword-optimized. Should feel like something they'd actually say.]
+ 
+HOOK: [First line of voiceover only]
+ 
+SCRIPT:
+[Full voiceover, written as casual spoken word — like they're narrating to their phone. 
+150–200 words max. 
+Include b-roll direction notes in brackets where relevant, e.g., [over footage of laptop], [cut to screen], [walking shot].
+No numbered lists. No "tip one, tip two." No formal structure.]
+```
+ 
+### Type 2 Quality Checks
+- Sounds like they're talking to their phone, not presenting to an audience
+- Personality markers present: specific details, honest asides, a distinct point of view
+- No numbered lists or tip structure — this is a vlog, not a tutorial
+- Passes the "could only this person have said this" test — see Step 3
+- Close is casual, not formal — no "if this helped you, subscribe"
+---
+ 
+## TYPE 3 — Face-to-Camera
+ 
+**What it is:** 30–60 seconds. The creator talking directly to the viewer, delivering tips, frameworks, or insights. Structured. Informational. Tip-led mode.
+ 
+### Hook for Type 3
+ 
+Open with a reframe of something the creator (or their audience) already believes, or with the specific moment the problem became real. If a hook framework reference exists, use whichever hook type is built for "problem → solution, direct" or "contrarian / pattern interrupt." Otherwise, just make sure the first line does one of those two jobs.
+ 
+### Script Structure (Tip-led shape)
+ 
+1. **Hook** — Reframe or specific moment. One move, one sentence, then stop.
+2. **The diagnosis** — What is actually wrong or what is the real insight? Name the root before delivering the fix.
+3. **The framework** — Named, numbered, 3 points max. Each point gets one concrete example — not just a label.
+4. **Recap** — Bring the idea to a natural conclusion before closing.
+5. **Handoff** — One specific action the viewer can take before they close the app.
+### Type 3 Output Format
+ 
+```
+TITLE: [Platform title — searchable, specific, tip-forward. E.g., "3 rules I follow when negotiating rent"]
+ 
+HOOK: [First 1–2 sentences only]
+ 
+SCRIPT:
+[Full script, written as spoken word — conversational, not scripted-sounding.
+150–250 words max.
+Include text overlay cues in brackets for key points, e.g., [TEXT: Rule 1: Always start with a plan].
+Recap line required before the close.
+One clear handoff at the end.]
+```
+ 
+### Type 3 Quality Checks
+ 
+If a hook framework reference file exists, run its full hook test suite against the script. Otherwise, check for:
+- **Immediacy** — is there a time anchor?
+- **Direction** — does the viewer know what's coming?
+- **Specificity** — concrete details, not vague claims?
+- **Vulnerability without weakness** — honest but structurally confident?
+- **Value promise** — payoff implied or stated?
+- **Only-this-creator** — could only this person have said this? (see Step 3)
+Script checks:
+- Every tip has an anchor — a specific cost, moment, or consequence behind it
+- No em dashes in spoken script
+- No AI-sounding phrasing — reads like a real person talking, not generated content
+---
+ 
+## Step 3: Final Quality Pass
+ 
+Before outputting, run this test across all three formats:
+ 
+> Could a generic influencer in this same niche have produced the same output from the same source script — or does this sound like it could only have come from this specific creator?
+ 
+If it reads generic, go back and find what makes it theirs: their specific framing, their specific experience, their specific way of seeing the thing (pulled from the source script or any reference files). Put it back in.
+ 
+Then output all three formats cleanly. Do not add commentary, explanation, or meta-notes after the output. Deliver and stop.
